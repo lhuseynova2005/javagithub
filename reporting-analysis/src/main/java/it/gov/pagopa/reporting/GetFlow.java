@@ -65,7 +65,10 @@ public class GetFlow {
         return new FlowsService(this.storageConnectionString, this.flowsTable, this.containerBlob, logger);
     }
     public class GetFlow{
-        
+        public class static void main (String []args) {
+            
+        }
+
     }
 
 }
